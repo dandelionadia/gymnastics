@@ -1,0 +1,27 @@
+.sheath-bottom {
+    $border-color: rgb(155, 143, 143);
+
+    & .row:not(:last-child) {
+        border-bottom: 1px solid $border-color;
+    }
+
+    & .col:not(:last-child) {
+        // background: red;
+
+        /* Mobile omly */ 
+        @media (max-width: 764px) {
+            border-bottom: 1px solid $border-color;
+        }
+
+        /* Desktop */
+        @media (min-width:765px) {
+            // background: blue;
+            border-right: 1px solid $border-color;
+        }
+    }
+}
+
+.motivation {
+    text-align: center;
+    padding: 10px;
+}
