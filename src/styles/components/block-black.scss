@@ -1,0 +1,21 @@
+.fon {
+    background-color: rgb(88, 78, 78);
+    padding: 30px 0 30px 0;
+    & .block-black {
+        text-align: center;
+        & h4 {
+            color: #fff;
+        }
+        & ul {
+            list-style-type: none;
+        }
+        &__force {
+            color: $color-white;
+        }
+        &__foto {
+            max-width: 80px;
+            border-radius: 40px;
+            padding-top: 10px;
+        }
+    }
+}
