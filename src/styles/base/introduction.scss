@@ -1,0 +1,10 @@
+.introduction {
+    background-color: $color-white;
+    text-align: center;
+    padding: 20px 30px 30px 30px;
+    margin-bottom: 30px;
+    &:first-letter {
+        font-size: 200%;
+        font-family: "Times New Roman", Times, serif;
+    }
+}
