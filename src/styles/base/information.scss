@@ -1,0 +1,14 @@
+.information {
+    margin: 20px 0 40px 0;
+    &__foto {
+        max-width: 100%;
+        height: 300px;
+        border-radius: 5px;
+    }
+    &__text {
+        background-color: $color-white;
+        text-align: center;
+        padding: 40px 10px 45px 10px;
+        border-radius: 5px;
+    }
+}
