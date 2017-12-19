@@ -1,0 +1,19 @@
+.list {
+    text-align: center;
+    & ul {
+        list-style-type: none;
+        margin: 10px;
+    }
+    
+    & li {
+        display: inline;
+        margin: 10px;
+        & a {
+            color:  $color-black-light;
+        }
+    }
+}
+
+.fon-list {
+    background-color: $color-white;
+}
