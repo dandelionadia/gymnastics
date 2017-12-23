@@ -1,16 +1,16 @@
 .fon-foto {
     position: relative;
-    background-image: url('../../..src/images/4.jpg');
+    background-image: url('../../src/images/4.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 600px;
     display: flex;
     align-items: center;
 
     &:before {
         content: '';
         position: absolute;
-        background-color: rgb(199, 184, 184);
+        background-color: rgba(199, 184, 184, 0.5);
         top: 0;
         right: 0;
         bottom: 0;
